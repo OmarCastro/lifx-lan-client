@@ -1,5 +1,5 @@
 import { uint8ArrayToHexString } from './utils/hex-string.util.ts'
-import type { UdpSocket, UdpSocketMessage} from '../../udp/udp.ts'
+import type { UdpSocket, UdpSocketMessage} from '../udp/udp.ts'
 import { PACKET_TRANSACTION_TYPES, messageQueueRecord } from './constants.ts'
 
 export interface LogMessage {
