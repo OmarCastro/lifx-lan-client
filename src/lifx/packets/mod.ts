@@ -11,6 +11,7 @@ import getLabel from './getLabel.ts'
 import getLight from './getLight.ts'
 import getPower from './getPower.ts'
 import getService from './getService.ts'
+import getTemperature from './getTemperature.ts'
 import getVersion from './getVersion.ts'
 import getWifiFirmware from './getWifiFirmware.ts'
 import getWifiInfo from './getWifiInfo.ts'
@@ -32,6 +33,7 @@ import stateLight from './stateLight.ts'
 import stateMultiZone from './stateMultiZone.ts'
 import statePower from './statePower.ts'
 import stateService from './stateService.ts'
+import stateTemperature from './stateTemperature.ts'
 import stateVersion from './stateVersion.ts'
 import stateWifiFirmware from './stateWifiFirmware.ts'
 import stateWifiInfo from './stateWifiInfo.ts'
@@ -85,6 +87,9 @@ export const packets = {
 
     setColor,
     setWaveform,
+
+    getTemperature,
+    stateTemperature,
 
     getInfrared,
     setInfrared,
