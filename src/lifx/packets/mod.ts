@@ -1,5 +1,6 @@
 import acknowledgement from './acknowledgement.ts'
 import echoRequest from './echoRequest.ts'
+import echoResponse from './echoResponse.ts'
 import getAmbientLight from './getAmbientLight.ts'
 import getColorZones from './getColorZones.ts'
 import getHostFirmware from './getHostFirmware.ts'
@@ -75,7 +76,7 @@ export const packets = {
     rebootResponse,
 
     echoRequest,
-
+    echoResponse,
     /*
      * Light device related packages
      */
