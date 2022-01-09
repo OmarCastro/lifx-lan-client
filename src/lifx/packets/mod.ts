@@ -9,6 +9,7 @@ import getInfo from './getInfo.ts'
 import getInfrared from './getInfrared.ts'
 import getLabel from './getLabel.ts'
 import getLight from './getLight.ts'
+import getLocation from './getLocation.ts'
 import getPower from './getPower.ts'
 import getService from './getService.ts'
 import getTemperature from './getTemperature.ts'
@@ -30,6 +31,7 @@ import stateInfo from './stateInfo.ts'
 import stateInfrared from './stateInfrared.ts'
 import stateLabel from './stateLabel.ts'
 import stateLight from './stateLight.ts'
+import stateLocation from './stateLocation.ts'
 import stateMultiZone from './stateMultiZone.ts'
 import statePower from './statePower.ts'
 import stateService from './stateService.ts'
@@ -79,6 +81,10 @@ export const packets = {
 
     echoRequest,
     echoResponse,
+
+    getLocation,
+    stateLocation,
+
     /*
      * Light device related packages
      */
