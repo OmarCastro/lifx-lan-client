@@ -1,6 +1,3 @@
-'use strict';
-
-
 const packetSizeInBytes = 5
 
 interface StateServiceObject {
@@ -8,8 +5,6 @@ interface StateServiceObject {
   serviceName: string
   port: number
 }
-
-
 
   
 /*
@@ -31,7 +26,7 @@ function getServiceName(serviceNumber: number){
 }
 
 export const Packet = {
-  size: 5,
+  size: packetSizeInBytes,
 
   /**
  * Converts packet specific data from a buffer to an object
