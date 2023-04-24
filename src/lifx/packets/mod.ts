@@ -3,6 +3,7 @@ import echoRequest from './echoRequest.ts'
 import echoResponse from './echoResponse.ts'
 import getAmbientLight from './getAmbientLight.ts'
 import getColorZones from './getColorZones.ts'
+import getGroup from './getGroup.ts'
 import getHostFirmware from './getHostFirmware.ts'
 import getHostInfo from './getHostInfo.ts'
 import getInfo from './getInfo.ts'
@@ -26,6 +27,7 @@ import setLabel from './setLabel.ts'
 import setPower from './setPower.ts'
 import setWaveform from './setWaveform.ts'
 import stateAmbientLight from './stateAmbientLight.ts'
+//import stateGroup from './stateGroup.ts'
 import stateHostFirmware from './stateHostFirmware.ts'
 import stateHostInfo from './stateHostInfo.ts'
 import stateInfo from './stateInfo.ts'
@@ -89,6 +91,10 @@ export const packets = {
 
     getOwner,
     stateOwner,
+
+    getGroup,
+    //stateGroup,
+
 
     /*
      * Light device related packages
