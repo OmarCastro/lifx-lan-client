@@ -20,8 +20,8 @@ export const Packet = {
     const obj = {} as StateGroupObject;
     let offset = 0;
   
-    if (buf.length !== this.size) {
-      throw new Error('Invalid length given for stateAmbientLight LIFX packet');
+    if (buf.length !== packetSizeInBytes) {
+      throw new Error('Invalid length given for stateGroup LIFX packet');
     }
   
     obj.group = uint8ArrayToHexString(buf.slice(offset, offset + 16))
