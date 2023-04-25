@@ -27,7 +27,7 @@ import setLabel from './setLabel.ts'
 import setPower from './setPower.ts'
 import setWaveform from './setWaveform.ts'
 import stateAmbientLight from './stateAmbientLight.ts'
-//import stateGroup from './stateGroup.ts'
+import stateGroup from './stateGroup.ts'
 import stateHostFirmware from './stateHostFirmware.ts'
 import stateHostInfo from './stateHostInfo.ts'
 import stateInfo from './stateInfo.ts'
@@ -93,8 +93,7 @@ export const packets = {
     stateOwner,
 
     getGroup,
-    //stateGroup,
-
+    stateGroup,
 
     /*
      * Light device related packages
