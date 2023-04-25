@@ -1,5 +1,3 @@
-'use strict';
-
 const packetSizeInBytes = 2
 
 interface StatePowerObject {
